@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		21CF302228D328DC0063C7FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF302128D328DC0063C7FA /* main.cpp */; };
+		21CF302B28D4AEFD0063C7FA /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF302928D4AEFD0063C7FA /* Interface.cpp */; };
+		21CF303128D4B4AF0063C7FA /* AStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF302F28D4B4AF0063C7FA /* AStar.cpp */; };
+		21CF303528D4B4BD0063C7FA /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF303328D4B4BD0063C7FA /* Wave.cpp */; };
+		21CF303928D4B8230063C7FA /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF303728D4B8230063C7FA /* Maze.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		21CF301E28D328DC0063C7FA /* Lab1_PIIS_A*_LI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab1_PIIS_A*_LI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CF302128D328DC0063C7FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21CF302928D4AEFD0063C7FA /* Interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interface.cpp; sourceTree = "<group>"; };
+		21CF302A28D4AEFD0063C7FA /* Interface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Interface.hpp; sourceTree = "<group>"; };
+		21CF302F28D4B4AF0063C7FA /* AStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AStar.cpp; sourceTree = "<group>"; };
+		21CF303028D4B4AF0063C7FA /* AStar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AStar.hpp; sourceTree = "<group>"; };
+		21CF303328D4B4BD0063C7FA /* Wave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wave.cpp; sourceTree = "<group>"; };
+		21CF303428D4B4BD0063C7FA /* Wave.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wave.hpp; sourceTree = "<group>"; };
+		21CF303728D4B8230063C7FA /* Maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
+		21CF303828D4B8230063C7FA /* Maze.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maze.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				21CF302128D328DC0063C7FA /* main.cpp */,
+				21CF302928D4AEFD0063C7FA /* Interface.cpp */,
+				21CF302A28D4AEFD0063C7FA /* Interface.hpp */,
+				21CF303728D4B8230063C7FA /* Maze.cpp */,
+				21CF303828D4B8230063C7FA /* Maze.hpp */,
+				21CF303328D4B4BD0063C7FA /* Wave.cpp */,
+				21CF303428D4B4BD0063C7FA /* Wave.hpp */,
+				21CF302F28D4B4AF0063C7FA /* AStar.cpp */,
+				21CF303028D4B4AF0063C7FA /* AStar.hpp */,
 			);
 			path = "Lab1_PIIS_A*_LI";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CF303528D4B4BD0063C7FA /* Wave.cpp in Sources */,
+				21CF303128D4B4AF0063C7FA /* AStar.cpp in Sources */,
 				21CF302228D328DC0063C7FA /* main.cpp in Sources */,
+				21CF302B28D4AEFD0063C7FA /* Interface.cpp in Sources */,
+				21CF303928D4B8230063C7FA /* Maze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
