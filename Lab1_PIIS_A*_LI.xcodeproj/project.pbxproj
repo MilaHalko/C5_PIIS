@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AE38FE28D926DB0003DB2F /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21AE38FC28D926DB0003DB2F /* Cell.cpp */; };
 		21CF302228D328DC0063C7FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF302128D328DC0063C7FA /* main.cpp */; };
 		21CF302B28D4AEFD0063C7FA /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF302928D4AEFD0063C7FA /* Interface.cpp */; };
 		21CF303128D4B4AF0063C7FA /* AStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CF302F28D4B4AF0063C7FA /* AStar.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21AE38FC28D926DB0003DB2F /* Cell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
+		21AE38FD28D926DB0003DB2F /* Cell.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cell.hpp; sourceTree = "<group>"; };
 		21CF301E28D328DC0063C7FA /* Lab1_PIIS_A*_LI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab1_PIIS_A*_LI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CF302128D328DC0063C7FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		21CF302928D4AEFD0063C7FA /* Interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interface.cpp; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 				21CF302A28D4AEFD0063C7FA /* Interface.hpp */,
 				21CF303728D4B8230063C7FA /* Maze.cpp */,
 				21CF303828D4B8230063C7FA /* Maze.hpp */,
+				21AE38FC28D926DB0003DB2F /* Cell.cpp */,
+				21AE38FD28D926DB0003DB2F /* Cell.hpp */,
 				21CF303328D4B4BD0063C7FA /* Wave.cpp */,
 				21CF303428D4B4BD0063C7FA /* Wave.hpp */,
 				21CF302F28D4B4AF0063C7FA /* AStar.cpp */,
@@ -141,6 +146,7 @@
 				21CF303528D4B4BD0063C7FA /* Wave.cpp in Sources */,
 				21CF303128D4B4AF0063C7FA /* AStar.cpp in Sources */,
 				21CF302228D328DC0063C7FA /* main.cpp in Sources */,
+				21AE38FE28D926DB0003DB2F /* Cell.cpp in Sources */,
 				21CF302B28D4AEFD0063C7FA /* Interface.cpp in Sources */,
 				21CF303928D4B8230063C7FA /* Maze.cpp in Sources */,
 			);

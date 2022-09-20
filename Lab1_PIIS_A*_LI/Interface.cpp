@@ -29,27 +29,29 @@ void Interface::dataChoosing()
     ifstream file (fileName);
     
     if(file) {
-        pair<int, int> coordinate;
-        file >> coordinate.first;
-        file >> coordinate.second;
-        maze.setStart(coordinate);
+        int x, y;
+        file >> x;
+        file >> y;
+        maze.setStart(x, y);
         
-        file >> coordinate.first;
-        file >> coordinate.second;
-        maze.setEnd(coordinate);
+        file >> x;
+        file >> y;
+        maze.setEnd(x, y);
         
-        vector<vector<int>> m;
+        vector<vector<Cell>> m;
         string line;
         getline(file, line);
         while (!file.eof()) {
+            int i = 0;
             getline(file, line);
-            vector<int> l;
+            vector<Cell> l;
             if (line.size() != 0) {
                 for (int j = 0; j < line.size() - 1; j++) {
-                    l.push_back((int)line[j] - 48);
+                    l.push_back(Cell(i, j, (int)line[j] - 48));
                 }
                 m.push_back(l);
             }
+            i++;
         }
         maze.setMaze(m);
         file.close();
@@ -60,11 +62,11 @@ void Interface::dataChoosing()
 }
 
 void Interface::printStart() {
-    cout << "H = " << maze.getH() << endl;
-    cout << "V = " << maze.getV() << endl;
-    pair<int, int> coordinate = maze.getStart();
+    cout << "Width = " << maze.getWi() << endl;
+    cout << "Hight = " << maze.getHi() << endl;
+    pair<int, int> coordinate = maze.getStart().getCoord();
     cout << "Start: " << coordinate.first << "." << coordinate.second << endl;
-    coordinate = maze.getEnd();
+    coordinate = maze.getEnd().getCoord();
     cout << "End: " << coordinate.first << "." << coordinate.second << endl;
     printMaze();
 }
@@ -97,7 +99,7 @@ int Interface::cinInt() {
 }
 
 void Interface::printMaze() {
-    vector<vector<int>> m = maze.getMaze();
+    vector<vector<Cell>> m = maze.getMaze();
     for (int i = 0; i < m.size() * 3 + 2; i++) {
         cout << "\u2500";                       // "-"
     }
@@ -105,13 +107,13 @@ void Interface::printMaze() {
     for (int i = 0; i < m.size(); i++) {
         cout << "\u2502";                       // "|"
         for (int j = 0; j < m[i].size(); j++) {
-            if (i == maze.getStart().first && j == maze.getStart().second) {
+            if (i == maze.getStart().getX() && j == maze.getStart().getY()) {
                 cout << " S ";                  // start
             }
-            else if (i == maze.getEnd().first && j == maze.getEnd().second) {
+            else if (i == maze.getEnd().getX() && j == maze.getEnd().getY()) {
                 cout << " E ";                  // end
             }
-            else if (m[i][j] == 1) {
+            else if (m[i][j].getDist() == -1) {
                 cout << "\u2588\u2588\u2588";   // "█"
             }
             else {

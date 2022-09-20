@@ -1,22 +1,26 @@
 #include "Maze.hpp"
-void Maze::setMaze(vector<vector<int>> maze) {
+void Maze::setMaze(vector<vector<Cell>> maze) {
     this->maze = maze;
-//    sizeH = (int)maze.size();
-//    sizeV = (int)maze[0].size();
-//    for (int h = 0; h < sizeH; h++) {
-//        vector<int> line;
-//        for (int v = 0; v < sizeV; v++) {
-//            line.push_back(maze[h][v]);
-//        }
-//        this->maze.push_back(line);
-//    }
 }
-vector<vector<int>> Maze::getMaze() {return maze;}
+vector<vector<Cell>> Maze::getMaze() {
+    return maze;
+}
 
-int Maze::getV() {return (int)maze.size();}
-int Maze::getH() {return (int)maze[0].size();}
+void Maze::addToPath(Cell cell) {
+    path.push_back(cell);
+}
+list<Cell> Maze::getPath() {
+    return path;
+}
 
-void Maze::setStart(pair<int, int> start) {this->start = start;}
-void Maze::setEnd(pair<int, int> end) {this->end = end;}
-pair<int, int> Maze::getStart() {return start;}
-pair<int, int> Maze::getEnd() {return end;}
+int Maze::getHi() {return (int)maze.size();}
+int Maze::getWi() {return (int)maze[0].size();}
+
+void Maze::setStart(int x, int y) {
+    start = Cell(x, y);
+}
+void Maze::setEnd(int x, int y) {
+    end = Cell(x, y);
+}
+Cell Maze::getStart() {return start;}
+Cell Maze::getEnd() {return end;}

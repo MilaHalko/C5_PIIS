@@ -3,24 +3,31 @@
 #include <string>
 #include <fstream>
 #include <list>
+#include "Cell.hpp"
 
 using namespace::std;
 
 class Maze {
 private:
-    vector<vector<int>> maze;
-    list<pair<int, int>> path;
-    pair<int, int> start;
-    pair<int, int> end;
+    vector<vector<Cell>> maze;
+    list<Cell> path;
+    Cell start;
+    Cell end;
     
 public:
-    void setMaze(vector<vector<int>>);
-    vector<vector<int>> getMaze();
-    int getV();
-    int getH();
-    void setStart(pair<int, int>);
-    void setEnd(pair<int, int>);
-    pair<int, int> getStart();
-    pair<int, int> getEnd();
+    Maze();
+    void setMaze(vector<vector<Cell>>);
+    vector<vector<Cell>> getMaze();
+    
+    void addToPath(Cell cell);
+    list<Cell> getPath();
+    
+    int getHi();
+    int getWi();
+    
+    void setStart(int, int);
+    void setEnd(int, int);
+    Cell getStart();
+    Cell getEnd();
  
 };
