@@ -2,15 +2,15 @@ using Pacman.Classes;
 
 namespace Pacman.Algos;
 
-public class MiniMax
+public class MiniMax : Algorithm
 {
-    private Field _field;
+    
     // TODO: What is depth???
     private int _depth = 6;
 
-    public MiniMax(Field f)
+    public MiniMax(Field f) : base(f)
     {
-        _field = f;
+        
     }
 
     public int Apply(Cell position, int depth, bool maxPlayer)
