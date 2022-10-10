@@ -1,7 +1,7 @@
 using Pacman.Classes;
 namespace Pacman.Algos;
 
-public class Algorithm
+public abstract class Algorithm
 {
     protected Field _field;
 
@@ -9,5 +9,6 @@ public class Algorithm
     {
         _field = f;
     }
-    int Apply(Cell position, int depth, bool maxPlayer);
+
+    public abstract int Apply(Cell position, int depth, bool maxPlayer);
 }
