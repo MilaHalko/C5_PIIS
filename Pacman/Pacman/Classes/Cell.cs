@@ -2,14 +2,20 @@ namespace Pacman.Classes;
 
 public class Cell
 {
-    public int GetScore()
+    public int X { get; set; }
+    public int Y { get; set; }
+
+    public Cell()
     {
-        return 1;
+    }
+    public Cell(int x, int y)
+    {
+        X = x;
+        Y = y;
     }
 
-    // TODO: Get adjacent cells?
-    public Cell[] GetAdjCells()
+    public bool SameCell(Cell cell)
     {
-        return new Cell();
+        return X == cell.X && Y == cell.Y;
     }
 }
