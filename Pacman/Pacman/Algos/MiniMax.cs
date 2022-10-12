@@ -1,27 +1,21 @@
+namespace Pacman.Algos;
 using Pacman.Classes;
 
-namespace Pacman.Algos;
-
-public class MiniMax : Algorithm
+public class MiniMax : IAlgorithm
 {
-    
-    // TODO: What is depth???
-    private int _depth = 6;
-
-    public MiniMax(Field f) : base(f)
+    public MiniMax()
     {
-        
     }
 
-    public int Apply(Cell position, int depth, bool maxPlayer)
+    public int Apply(State state, int depth, bool maxPlayer)
     {
-        if (depth == 0 || _field.EnemyWon())
+        if (depth == 0 || state.EnemyWon())
         {
-            return position.GetScore();
+            return state.GetScore();
         }
 
         int bestScore = maxPlayer? Int32.MinValue : Int32.MaxValue;
-        foreach (var adjacent in position.GetAdjCells()) 
+        foreach (var adjacent in state.GetAdjacents()) 
         {
             int score = Apply(adjacent, depth - 1, !maxPlayer);
             bestScore = maxPlayer? Math.Max(bestScore, score) : Math.Min(bestScore, score);
