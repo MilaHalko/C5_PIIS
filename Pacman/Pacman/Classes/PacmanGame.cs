@@ -1,13 +1,20 @@
+using Pacman.Algos;
+
 namespace Pacman.Classes;
 
 public class PacmanGame
 {
-    private Field _field = Field.GetDefaultField();
+    private State _state;
+    private MiniMax minimax;
+
+    public PacmanGame(Cell pacman, Cell enemy, Cell destination)
+    {
+        _state = new State(Field.GetDefaultField(), pacman, enemy, destination);
+    }
 
     public void Start()
     {
-        _field.PrintField();
+        _state.FieldOutput();
         
     }
-    public PacmanGame() {}
 }
