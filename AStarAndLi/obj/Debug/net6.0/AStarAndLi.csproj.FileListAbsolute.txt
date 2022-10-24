@@ -1,0 +1,15 @@
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/bin/Debug/net6.0/AStarAndLi
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/bin/Debug/net6.0/AStarAndLi.deps.json
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/bin/Debug/net6.0/AStarAndLi.runtimeconfig.json
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/bin/Debug/net6.0/AStarAndLi.dll
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/bin/Debug/net6.0/AStarAndLi.pdb
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.csproj.AssemblyReference.cache
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.AssemblyInfoInputs.cache
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.AssemblyInfo.cs
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.csproj.CoreCompileInputs.cache
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.dll
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/refint/AStarAndLi.dll
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.pdb
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/AStarAndLi.genruntimeconfig.cache
+/Users/mila/Documents/Progs/PIIC/S5_PIIS/AStarAndLi/obj/Debug/net6.0/ref/AStarAndLi.dll
