@@ -4,16 +4,17 @@
     <projectFile>AStarLee/AStarLee.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034cdfc4-5067-486b-8794-75d53bdb4f90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AStarLee/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AStarLee/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AStarLee/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AStarLee/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="034cdfc4-5067-486b-8794-75d53bdb4f90" name="Changes" comment="Updated sln">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AStarLee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AStarLee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AStarLee/PathFindAlgos/AStar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AStarLee/PathFindAlgos/AStar.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/mila/Documents/Progs/PIIC_labs/AStarLee/AStarLee/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668011004873</updated>
-      <workItem from="1668011028847" duration="299000" />
+      <workItem from="1668011028847" duration="2543000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated sln">
+      <created>1668011493079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668011493079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Updated sln" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated sln" />
   </component>
 </project>

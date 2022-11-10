@@ -39,11 +39,9 @@ public class AStar : IPathFindingAlgorithm
         return -1;
     }
 
-    private List<Cell> CreatePath(Node current)
+    private List<Cell> CreatePath(Node curNode)
     {
         List<Cell> path = new List<Cell>();
-
-        var curNode = current;
         path.Add(curNode.Cell);
 
         while (curNode.Distance != 0)
@@ -64,7 +62,7 @@ public class AStar : IPathFindingAlgorithm
             Cell adjCell =
                 new Cell(current.Cell.X + _rowNum[i], current.Cell.Y + _colNum[i]);
             
-            if (CheckCoordinates(adjCell, labyrinth) && labyrinth[adjCell] == 1 &&
+            if (CoordinatesAreValid(adjCell, labyrinth) && labyrinth[adjCell] == 1 &&
                 !visitedNodes[adjCell.X, adjCell.Y])
             {
                 visitedNodes[adjCell.X, adjCell.Y] = true;
@@ -75,7 +73,7 @@ public class AStar : IPathFindingAlgorithm
         }
     }
 
-    private bool CheckCoordinates(Cell cell, Labyrinth labyrinth)
+    private bool CoordinatesAreValid(Cell cell, Labyrinth labyrinth)
     {
         return cell.X >= 0 && cell.Y >= 0 &&
                cell.X < labyrinth.Height && cell.Y < labyrinth.Width;
