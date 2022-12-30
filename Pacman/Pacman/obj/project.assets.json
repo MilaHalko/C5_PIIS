@@ -54,19 +54,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\myksv\\.nuget\\packages\\": {}
+    "/Users/mila/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\myksv\\RiderProjects\\S5_PIIS\\Pacman\\Pacman\\Pacman.csproj",
+      "projectUniqueName": "/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/Pacman.csproj",
       "projectName": "Pacman",
-      "projectPath": "C:\\Users\\myksv\\RiderProjects\\S5_PIIS\\Pacman\\Pacman\\Pacman.csproj",
-      "packagesPath": "C:\\Users\\myksv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\myksv\\RiderProjects\\S5_PIIS\\Pacman\\Pacman\\obj\\",
+      "projectPath": "/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/Pacman.csproj",
+      "packagesPath": "/Users/mila/.nuget/packages/",
+      "outputPath": "/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\myksv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/mila/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -101,7 +101,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -110,7 +111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

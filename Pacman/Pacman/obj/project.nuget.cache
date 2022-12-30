@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NZ/Ex4L/AdeD2eU49hT23G9YIuyBRifwa2IawNk1sDWsh7F11kEt/6Nd/Hmu2d8BVEVYLQuCLQVa7wQMx45Ufg==",
+  "dgSpecHash": "roA0PmIf/b5dsb0KJaOGGPl0xZSRumFOpwL0qgwpmTMF3SaoJKVNqNHRqA2pftyL+VIOqm/+NMrIGIs4osp1qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\myksv\\RiderProjects\\S5_PIIS\\Pacman\\Pacman\\Pacman.csproj",
+  "projectFilePath": "/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/Pacman.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\myksv\\.nuget\\packages\\optimizedpriorityqueue\\5.1.0\\optimizedpriorityqueue.5.1.0.nupkg.sha512"
+    "/Users/mila/.nuget/packages/optimizedpriorityqueue/5.1.0/optimizedpriorityqueue.5.1.0.nupkg.sha512"
   ],
   "logs": []
 }

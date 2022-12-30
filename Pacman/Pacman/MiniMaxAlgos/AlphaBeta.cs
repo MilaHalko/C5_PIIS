@@ -1,12 +1,11 @@
-namespace Pacman.Algos;
-using Pacman.Classes;
+using Pacman.PacmanClasses;
+using Pacman.MiniMaxAlgos;
 
-public class MiniMax : IAlgorithm
+public class AlphaBeta : IMiniMax
 {
-    public MiniMax()
+    public AlphaBeta()
     {
     }
-
     public int Apply(State state, int depth, bool maxPlayer)
     {
         if (depth == 0 || state.EnemyWon())

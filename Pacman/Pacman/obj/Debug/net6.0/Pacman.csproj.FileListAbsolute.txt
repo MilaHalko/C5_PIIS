@@ -13,3 +13,9 @@
 /Users/mila/Documents/Progs/PIIC/Lab2_Pacman/Pacman/Pacman/obj/Debug/net6.0/Pacman.pdb
 /Users/mila/Documents/Progs/PIIC/Lab2_Pacman/Pacman/Pacman/obj/Debug/net6.0/Pacman.genruntimeconfig.cache
 /Users/mila/Documents/Progs/PIIC/Lab2_Pacman/Pacman/Pacman/obj/Debug/net6.0/ref/Pacman.dll
+/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/Debug/net6.0/Pacman.csproj.AssemblyReference.cache
+/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/Debug/net6.0/Pacman.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/Debug/net6.0/Pacman.AssemblyInfoInputs.cache
+/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/Debug/net6.0/Pacman.AssemblyInfo.cs
+/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/Debug/net6.0/Pacman.csproj.CoreCompileInputs.cache
+/Users/mila/Documents/Progs/PIIC_labs/Pacman/Pacman/obj/Debug/net6.0/Pacman.pdb

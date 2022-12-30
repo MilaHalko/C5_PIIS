@@ -1,11 +1,10 @@
-using Pacman.Algos;
-
-namespace Pacman.Classes;
+using Pacman.MiniMaxAlgos;
+namespace Pacman.PacmanClasses;
 
 public class PacmanGame
 {
     private State _state;
-    private MiniMax minimax;
+    private IMiniMax minimax;
 
     public PacmanGame(Cell pacman, Cell enemy, Cell destination)
     {

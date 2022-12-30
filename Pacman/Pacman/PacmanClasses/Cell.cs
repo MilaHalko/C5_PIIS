@@ -1,9 +1,9 @@
-namespace Pacman.Classes;
+namespace Pacman.PacmanClasses;
 
 public class Cell
 {
-    public int X { get; set; }
-    public int Y { get; set; }
+    public int X { get; set; }  // as I
+    public int Y { get; set; }  // as J
 
     public Cell()
     {

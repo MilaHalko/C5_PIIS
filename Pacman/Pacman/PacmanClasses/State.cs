@@ -1,4 +1,4 @@
-namespace Pacman.Classes;
+namespace Pacman.PacmanClasses;
 
 public class State
 {
@@ -70,10 +70,10 @@ public class State
                 }
             }
             Console.WriteLine("🟪🟪🟪🟪🟪🟪🟪🟪🟪");
-            for (int i = 0; i < Height; i++)
+            for (int i = 0; i < _field.Height; i++)
             {
                 Console.Write("🟪");
-                for (int j = 0; j < Width; j++)
+                for (int j = 0; j < _field.Width; j++)
                 {
                     Console.Write(stringMaze[i, j]);
                 }
